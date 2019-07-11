@@ -52,9 +52,6 @@ class ViewController: NSViewController {
         parseBtn.target = self
         parseBtn.action = #selector(MyClassAction(_:))
         
-//
-//        resultTextView.textStorage = .joined(separator:"\n");
-
         // Do any additional setup after loading the view.
     }
     
