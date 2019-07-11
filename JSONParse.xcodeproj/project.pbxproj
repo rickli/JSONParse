@@ -13,7 +13,6 @@
 		3CE7A83222D5BA86001DEEAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CE7A83122D5BA86001DEEAD /* Assets.xcassets */; };
 		3CE7A83522D5BA86001DEEAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CE7A83322D5BA86001DEEAD /* Main.storyboard */; };
 		3CE7A84122D5BA86001DEEAD /* JSONParseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE7A84022D5BA86001DEEAD /* JSONParseTests.swift */; };
-		3CE7A84C22D5BA86001DEEAD /* JSONParseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE7A84B22D5BA86001DEEAD /* JSONParseUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,8 +45,6 @@
 		3CE7A84022D5BA86001DEEAD /* JSONParseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParseTests.swift; sourceTree = "<group>"; };
 		3CE7A84222D5BA86001DEEAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3CE7A84722D5BA86001DEEAD /* JSONParseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSONParseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3CE7A84B22D5BA86001DEEAD /* JSONParseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParseUITests.swift; sourceTree = "<group>"; };
-		3CE7A84D22D5BA86001DEEAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +77,6 @@
 			children = (
 				3CE7A82A22D5BA85001DEEAD /* JSONParse */,
 				3CE7A83F22D5BA86001DEEAD /* JSONParseTests */,
-				3CE7A84A22D5BA86001DEEAD /* JSONParseUITests */,
 				3CE7A82922D5BA85001DEEAD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -116,15 +112,6 @@
 				3CE7A84222D5BA86001DEEAD /* Info.plist */,
 			);
 			path = JSONParseTests;
-			sourceTree = "<group>";
-		};
-		3CE7A84A22D5BA86001DEEAD /* JSONParseUITests */ = {
-			isa = PBXGroup;
-			children = (
-				3CE7A84B22D5BA86001DEEAD /* JSONParseUITests.swift */,
-				3CE7A84D22D5BA86001DEEAD /* Info.plist */,
-			);
-			path = JSONParseUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,7 +262,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CE7A84C22D5BA86001DEEAD /* JSONParseUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
