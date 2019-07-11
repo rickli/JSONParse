@@ -1,9 +1,10 @@
 language: swift
 osx_image: xcode10.2
+os: osx
 install:
     - brew install danger/tap/danger-swift
 script:
     - danger-swift ci
-    - xcodebuild test -project JSONParse.xcodeproj -scheme JSONParse -destination 'os: osx'
+    - xcodebuild test -project JSONParse.xcodeproj -scheme JSONParse -destination 'platform=macOS'
 after_success:
     - bash <(curl -s https://codecov.io/bash)
